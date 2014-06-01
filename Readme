@@ -1,0 +1,9 @@
+If you're reading this, you have Git access. Congrats. This file is just a notes file for the timebeing, but a warning: Do NOT make anything in the core that is game-specific. You can implement generic functions, but the point of the Offlink core is to be modular, and to allow for drop-in games.
+(Also, the name is an almost direct reference to one of my favorite games, and some of the code may have come from its engine. For that reason, the disclaimer at the bottom of this file exists)
+
+Some code property of Ferrous Moon, Inc. This code is commented as theirs and is not my property, and all rights o the code belong to them.
+Offlink core and game code (excluding ferrous moon code), property of:
+Jonathan Schuett
+NeuralNet Technologies
+bioshacker001@gmail.com
+http://neuralnettechnologies.webs.com
