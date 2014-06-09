@@ -11,8 +11,21 @@ printf("core2");
 coremod();
 printf("core3");
 // Check for updates to the Core, and if found, ask to install them
-coreup();
-printf("core4");
+if(update="1")
+{
+	coreup();
+	printf("core4");
+	if(upfound="1")
+	{
+		// Reinitialize configuration files in case of potential configuration deficiencies in newer OFFLINK core version
+		loadconf();
+	}
+}
+// Initiate Audio and Video subsystem loaders
+audload();
+vidload();
+// Gameloader integrity checks
+fcheck();
 // Transfer load of game to initial noncore loader
 gameload();
 printf("core5");
